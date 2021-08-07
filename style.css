@@ -1,0 +1,26 @@
+#header{
+    background-color: rgb(180, 255, 118);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-warning:hover{
+    background-color: rgb(65, 255, 106);
+}
+
+
+canvas{
+    animation-name:exmaple;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exmaple{
+    from{
+        box-shadow: 3px 3px 38px rgb(255, 0, 0);
+    }
+    to{
+        box-shadow: 3px 3px 38px rgb(255, 153, 0);
+    }
+}
